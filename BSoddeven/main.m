@@ -16,18 +16,25 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void oddeven(int n)
-        { 
-        
+void oddeven()
+        {
+            int a[2],i;
             printf("enter the number:");
-            scanf("%d",&n);
-            if(n%2==0)
+
+            for(i=0;i<2;i++)
             {
-                printf("even=%d",n);
+                    scanf("%d",&a[i]);
             }
-            else
+            for(i=0;i<2;i++)
             {
-                printf("odd=%d",n);
+            if(a[i]%2==0)
+            {
+                printf("even=%d \n",a[i]);
+            }
+            if(a[i]%2!=0)
+            {
+                printf("odd=%d \n",a[i]);
+            }
             }
         }
         

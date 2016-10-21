@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
 }
 
 void oddeven(int n)
-        {
+        { 
         
             printf("enter the number:");
             scanf("%d",&n);
